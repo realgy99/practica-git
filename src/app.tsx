@@ -17,15 +17,16 @@ const OPTIONS: Option[] = [
   {
     id: 2,
     title: "Opción 2",
-    description: "Ramas de Git",
+    description: "Ramas y merge",
     message:
-      "Una rama es una línea de desarrollo independiente. Puedes crear, fusionar y eliminar ramas sin afectar a main.",
+      "Una rama es como una linea de tiempo.",
     featureFlag: false,
   },
   {
     id: 3,
     title: "Opción 3",
     description: "Forks",
+    //
     message:
       "Un fork es una copia de un repositorio en tu cuenta. Puedes proponer cambios al original mediante un Pull Request.",
     featureFlag: true,
